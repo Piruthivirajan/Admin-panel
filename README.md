@@ -2,8 +2,9 @@
 ## npm install --save @angular/animations 
 ## npm install --save hammerjs
 ## npm install --save-dev @types/hammerjs
-## npm install --save @angular/material @angular/flex-layout 
+## npm install --save @angular/flex-layout 
 
+<!--## npm install --save ng2-flex-layout -->
 
 ## Μεσα στο @NgModule στα imports array βάλε
 

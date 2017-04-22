@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+/*@import "../node_modules/ng2-flex-layout/dist/ng2-flex-layout.css";*/
+
 
 body {
   margin: 0px;
