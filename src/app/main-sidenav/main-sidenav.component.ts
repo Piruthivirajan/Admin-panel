@@ -2,16 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { RouterModule, Routes, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-main-sidenav',
+  templateUrl: './main-sidenav.component.html',
+  styleUrls: ['./main-sidenav.component.css']
 })
-export class AppComponent {
+export class MainSidenavComponent implements OnInit {
 
-   // selectedUser = this.users[0];
-  isDarkTheme = false;
-
-  menulists: any = [
+   menulists: any = [
     {
       name: 'Dashboard',
       link : '/dashboard'
@@ -52,16 +49,11 @@ export class AppComponent {
       name: 'Grid lists',
       link : '/grid-lists'
     },
-    {
-      name: 'Tables',
-      link : '/tables'
-    },
   ];
 
   constructor(private router: Router) { }
 
   ngOnInit() {
-
   }
 
   selectedMenuItem(a) {

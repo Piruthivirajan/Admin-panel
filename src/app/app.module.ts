@@ -21,6 +21,11 @@ import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { LoginComponent } from './admin/login/login.component';
 import { Page404Component } from './admin/page-404/page-404.component';
 import { DialogComponent } from './dialog/dialog.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ButtonsComponent } from './pages/buttons/buttons.component';
+import { MainSidenavComponent } from './main-sidenav/main-sidenav.component';
+import { CardsComponent } from './pages/cards/cards.component';
+import { TablesComponent } from './pages/tables/tables.component';
 
 
 @NgModule({
@@ -29,7 +34,12 @@ import { DialogComponent } from './dialog/dialog.component';
     DashboardComponent,
     LoginComponent,
     Page404Component,
-    DialogComponent
+    DialogComponent,
+    HomeComponent,
+    ButtonsComponent,
+    MainSidenavComponent,
+    CardsComponent,
+    TablesComponent
   ],
   imports: [
     BrowserModule,
